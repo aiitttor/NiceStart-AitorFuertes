@@ -2,20 +2,17 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient"
-    tools:context=".Login">
+    tools:context=".Singup">
 
-    <ImageView
-        android:id="@+id/girl"
+    <View
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="fitStart"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-    </ImageView>
+        android:alpha="0.5"
+        android:background="@drawable/gradient">
+    </View>
 
     <ImageView
         android:id="@+id/logo"
@@ -26,18 +23,18 @@
         app:tint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-    </ImageView>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/til1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
-        app:layout_constraintEnd_toEndOf="@+id/guideline3"
-        app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/logo"
-        app:startIconDrawable="@drawable/usericon">
+        app:layout_constraintEnd_toEndOf="@id/guideline3"
+        app:layout_constraintStart_toStartOf="@id/guideline2"
+        app:layout_constraintTop_toBottomOf="@id/logo"
+        app:startIconDrawable="@drawable/usericon"
+        >
 
         <EditText
             android:layout_width="match_parent"
@@ -48,6 +45,7 @@
             android:hint="@string/username">
         </EditText>
     </com.google.android.material.textfield.TextInputLayout>
+
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/til2"
@@ -69,32 +67,50 @@
             android:hint="@string/password"
             android:drawableStart="@drawable/keyicon"
             app:passwordToggleEnabled="true"
-            android:maxLines="1" />
+            android:maxLines="1">
+        </EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@id/guideline3"
+        app:layout_constraintStart_toStartOf="@id/guideline2"
+        app:layout_constraintTop_toBottomOf="@id/til2"
+        android:drawableStart="@drawable/ic_correo">
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.6"
+            android:background="@color/white"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1">
+        </EditText>
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
         android:id="@+id/button"
-        style="@style/Widget.MaterialComponents.Button"
-        android:layout_width="0dp"
-        android:layout_height="60dp"
-        android:backgroundTint="@color/button_custom"
+        style="@style/buttonflat"
         android:onClick="openMain"
-        android:text="@string/login"
-        android:textAllCaps="true"
-        android:textColor="@color/naranja"
+        android:text="@string/singup"
         app:layout_constraintEnd_toEndOf="@id/guideline3"
         app:layout_constraintStart_toStartOf="@id/guideline2"
-        app:layout_constraintTop_toBottomOf="@id/til2" />
+        app:layout_constraintTop_toBottomOf="@id/til3" />
 
     <Button
         android:id="@+id/buttoninverse"
         style="@style/buttonoutlined"
-        android:onClick="openSingup"
-        android:text="@string/singup"
-        app:layout_constraintEnd_toEndOf="@+id/guideline3"
+        android:layout_height="60dp"
+        android:onClick="openLogin"
+        android:text="@string/cancel"
+        app:layout_constraintEnd_toEndOf="@id/guideline3"
         app:layout_constraintStart_toStartOf="@id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        />
+        app:layout_constraintTop_toBottomOf="@id/button">
+    </Button>
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"

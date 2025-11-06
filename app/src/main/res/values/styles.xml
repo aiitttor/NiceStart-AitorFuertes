@@ -9,4 +9,11 @@
         <item name="strokeColor">@android:color/white</item>
         <item name="strokeWidth">1dp</item>
     </style>
+
+    <style name="buttonflat">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:backgroundTint">@color/button_custom</item>
+        <item name="android:textColor">@color/amarillo</item>
+    </style>
 </resources>

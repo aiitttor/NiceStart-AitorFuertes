@@ -2,6 +2,8 @@
     <string name="app_name">Nicestart</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
+    <string name="email">Email</string>
     <string name="login">Login</string>
     <string name="singup">Singup</string>
+    <string name="cancel">Canelar</string>
 </resources>
