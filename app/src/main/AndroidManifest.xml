@@ -10,7 +10,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Nicestart.ActionBar" >
+        android:theme="@style/Theme.Nicestart.NoActionBar" >
         <activity
             android:name=".Singup"
             android:exported="false"
