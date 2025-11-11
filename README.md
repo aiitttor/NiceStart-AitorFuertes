@@ -12,4 +12,4 @@
 
 - Activity_singup
 
-- ![activity_singup](img/Singup.png)
+![activity_singup](img/Singup.png)
