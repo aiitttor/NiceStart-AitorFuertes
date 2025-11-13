@@ -9,6 +9,14 @@
     tools:context=".Splash">
 
     <ImageView
+        android:id="@+id/backView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </ImageView>
+
+    <ImageView
         android:id="@+id/logosplash"
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -18,8 +26,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:tint="@color/white">
-
-
     </ImageView>
 
     <TextView
