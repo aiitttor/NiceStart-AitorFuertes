@@ -6,4 +6,8 @@
     <string name="login">Login</string>
     <string name="singup">Singup</string>
     <string name="cancel">Canelar</string>
+    <string name="nombre">Juan García</string>
+    <string name="descripcion">Ingeniero en Informática con más de 6 años de experiencia en desarrollo de software y gestión de proyectos tecnológicos. Apasionado por la
+        innovación, la resolución de problemas y el aprendizaje continuo. </string>
+
 </resources>

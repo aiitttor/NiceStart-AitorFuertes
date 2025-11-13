@@ -6,10 +6,16 @@
 <!--        &lt;!&ndash; <item name="colorPrimary">@color/my_light_primary</item> &ndash;&gt;-->
 <!--    </style>-->
 
-    <style name="Theme.Nicestart.ActionBar" parent="Theme.MaterialComponents.DayNight">
+    <style name="Theme.Nicestart.ActionBarWhite" parent="Theme.MaterialComponents.DayNight">
         <item name="actionBarStyle">@style/TransparentActionBar</item>
         <item name="android:textColorPrimary">@color/white</item>
     </style>
+
+    <style name="Theme.Nicestart.ActionBarBlack" parent="Theme.MaterialComponents.DayNight">
+        <item name="actionBarStyle">@style/TransparentActionBar</item>
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+
 
     <style name="TransparentActionBar" parent="Widget.AppCompat.ActionBar">
         <item name="background">@android:color/transparent</item>
