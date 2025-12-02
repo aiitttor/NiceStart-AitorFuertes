@@ -1,6 +1,14 @@
 # APP Android Nicestart
 
-# Preview de Login y singup
+# PREVIEW DE LA APP
+
+- Icono de la App
+
+![](img/iconoApp.png)
+
+- Activity_splash
+
+![activity_splash](img/Splash.png)
 
 - Activity_login
 
@@ -19,9 +27,13 @@
 ![activity_profile](img/profileActivity.png)
 
 - MainActivity
-  - 
 
 ![MainActivity](img/mainMenu.png)
+
+  Botones del app bar:
+  ![](img/botonesAppBar.png)
+  ![](img/botonesAppBar2.png)
+  
 
 
 This repository is licensed under [Creativecommons Org Licenses By Sa 4](https://creativecommons.org/licenses/by-sa/4.0/)
