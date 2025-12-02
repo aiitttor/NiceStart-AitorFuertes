@@ -34,9 +34,17 @@
     - ![](img/botonesAppBar2.png)
     - ![](img/botonesAppBar.png)
       - Exit sale de la App, Do Nothing no hace nada y Splash abre la pantalla del Splash
-        - ![](img/AlertDialog1.png)
-  
-  
+        ![](img/AlertDialog1.png)
+      
+- Swipe Refresh
+
+![](img/SwipeRefresh.png)
+
+- Copy item & Download item
+
+![](img/CopyDownload.png)
+  - Al hacer click en una de estas 2 opciones, aparece su correspondiente toast
+  - ![](img/ToastCopyDownload.png)
 
 
 This repository is licensed under [Creativecommons Org Licenses By Sa 4](https://creativecommons.org/licenses/by-sa/4.0/)
