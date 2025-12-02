@@ -30,9 +30,12 @@
 
 ![MainActivity](img/mainMenu.png)
 
-  Botones del app bar:
-  ![](img/botonesAppBar.png)
+  - Botones del app bar:
   ![](img/botonesAppBar2.png)
+  ![](img/botonesAppBar.png)
+    - Exit sale de la App, Do Nothing no hace nada y Splash abre la pantalla del Splash
+      ![](img/AlertDialog1.png)
+  
   
 
 
