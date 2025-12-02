@@ -5,6 +5,8 @@
 - Icono de la App
 
 ![](img/iconoApp.png)
+[<img src="img/iconoApp.png" width="500" height="300"/>](img/iconoApp.png)
+
 
 - Activity_splash
 
