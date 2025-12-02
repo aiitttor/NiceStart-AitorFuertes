@@ -8,6 +8,18 @@
     android:background="@drawable/gradient"
     tools:context=".Splash">
 
+    <!--    <ImageView-->
+<!--        android:id="@+id/logosplash"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_marginTop="420dp"-->
+<!--        android:src="@drawable/ic_thunder"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:tint="@color/white">-->
+<!--    </ImageView>-->
+
     <ImageView
         android:id="@+id/backView"
         android:layout_width="match_parent"
@@ -16,17 +28,18 @@
         app:layout_constraintTop_toTopOf="parent">
     </ImageView>
 
-    <ImageView
-        android:id="@+id/logosplash"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="420dp"
-        android:src="@drawable/ic_thunder"
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView"
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:tint="@color/white">
-    </ImageView>
+        app:layout_constraintTop_toTopOf="@+id/backView"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/lottie" />
+
 
     <TextView
         android:layout_width="wrap_content"
@@ -35,9 +48,10 @@
         android:text="@string/app_name"
         android:textColor="@android:color/white"
         android:textSize="50sp"
-        app:layout_constraintEnd_toEndOf="@id/logosplash"
-        app:layout_constraintStart_toStartOf="@id/logosplash"
-        app:layout_constraintTop_toBottomOf="@id/logosplash">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView">
 
     </TextView>
 

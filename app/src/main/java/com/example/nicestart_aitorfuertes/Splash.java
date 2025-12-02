@@ -27,21 +27,21 @@ public class Splash extends AppCompatActivity {
         setContentView(R.layout.activity_splash);
         openApp();
 
-        ImageView thunder = findViewById(R.id.logosplash);
+//        ImageView thunder = findViewById(R.id.logosplash);
+//
+//        Animation myanim = AnimationUtils.loadAnimation(this, R.anim.blink);
+//        thunder.startAnimation(myanim);
+//
+//        ImageView mSea = findViewById(R.id.backView);
 
-        Animation myanim = AnimationUtils.loadAnimation(this, R.anim.blink);
-        thunder.startAnimation(myanim);
-
-        ImageView mSea = findViewById(R.id.backView);
-
-        Glide.with(this)
-                .load("https://images.unsplash.com/photo-1565214975484-3cfa9e56f914?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1482&q=80")
-                .transition(DrawableTransitionOptions.withCrossFade(100))
-                .centerCrop()
-                .diskCacheStrategy(DiskCacheStrategy.ALL)
-                .placeholder(new ColorDrawable(this.getResources().getColor(R.color.naranja)))
-//                .circleCrop()
-                .into(mSea);
+//        Glide.with(this)
+//                .load("https://images.unsplash.com/photo-1565214975484-3cfa9e56f914?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1482&q=80")
+//                .transition(DrawableTransitionOptions.withCrossFade(100))
+//                .centerCrop()
+//                .diskCacheStrategy(DiskCacheStrategy.ALL)
+//                .placeholder(new ColorDrawable(this.getResources().getColor(R.color.naranja)))
+////                .circleCrop()
+//                .into(mSea);
     }
 
     private void openApp() {

@@ -18,5 +18,10 @@
 
 ![activity_profile](img/profileActivity.png)
 
+- MainActivity
+  - 
+
+![MainActivity](img/mainMenu.png)
+
 
 This repository is licensed under [Creativecommons Org Licenses By Sa 4](https://creativecommons.org/licenses/by-sa/4.0/)
