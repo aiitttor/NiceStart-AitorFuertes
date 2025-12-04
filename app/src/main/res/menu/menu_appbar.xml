@@ -10,8 +10,7 @@
     <item
         android:id="@+id/item1"
         android:title="Copy"
-        android:icon="@drawable/ic_llave_inglesa"
-        android:iconTint="@color/white"
+        android:icon="@android:drawable/ic_menu_manage"
         app:showAsAction="ifRoom">
 
         <menu>

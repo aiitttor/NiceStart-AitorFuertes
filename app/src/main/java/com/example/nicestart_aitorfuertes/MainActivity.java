@@ -26,6 +26,7 @@ import com.google.android.material.snackbar.Snackbar;
 public class MainActivity extends AppCompatActivity {
 
     private SwipeRefreshLayout swipeLayout;
+    private WebView miVisorWeb;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,12 +34,24 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
-        TextView mycontext = findViewById(R.id.holaMundo);
+        WebView mycontext = findViewById(R.id.vistaweb);
         registerForContextMenu(mycontext);
 
         swipeLayout = findViewById(R.id.mySwipeRefresh);
         swipeLayout.setOnRefreshListener(mOnRefreshListener);
 
+        miVisorWeb = (WebView) findViewById(R.id.vistaweb);
+
+        String html = "<html>" +
+                "<head><style>" +
+                "html, body { margin:0; padding:0; height:100%; overflow:hidden; }" +
+                "img { width:100%; height:100%; object-fit:cover; }" + // object fit cover es lo mismo que CENTER CROP.
+                "</style></head>" +
+                "<body>" +
+                "<img src='https://thispersondoesnotexist.com' />" +
+                "</body></html>";
+
+        miVisorWeb.loadDataWithBaseURL(null, html, "text/html", "UTF-8", null);
     }
 
     protected SwipeRefreshLayout.OnRefreshListener
@@ -62,8 +75,8 @@ public class MainActivity extends AppCompatActivity {
 //                    });
 //
 //            snackbar.show();
-//
-//            miVisorWeb.reload();
+
+            miVisorWeb.reload();
         }
     };
 
