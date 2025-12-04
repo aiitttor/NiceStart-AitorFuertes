@@ -2,10 +2,15 @@
 
 # PREVIEW DE LA APP
 
+
+| Icono de la App | Activity_splash | Activity_login |
+|----------|-----------|-----------|
+| [<img src="img/iconoApp.png" width="250" height="300"/>](img/iconoApp.png)   | ![activity_splash](img/Splash.png)    | ![activity_login](img/Login.png)    |
+| Dato A   | Dato B    | Dato C    |
+
 - Icono de la App
 
 [<img src="img/iconoApp.png" width="250" height="300"/>](img/iconoApp.png)
-
 
 - Activity_splash
 
