@@ -3,15 +3,15 @@
 # PREVIEW DE LA APP
 
 
-| Icono de la App | Activity_splash | Activity_login | Activity_login horizontal  | Activity_singup |
-|----------|-----------|-----------|---|---|
-|[<img src="img/iconoApp.png" width="250" height="300"/>](img/iconoApp.png)|![activity_splash](img/Splash.png)|![activity_login](img/Login.png)|![land\activity_login](img/LoginHorizontal.png)|![activity_singup](img/Singup.png)|
-| Dato A   | Dato B    | Dato C    |   |   |
+| Icono de la App                                                            | Activity_splash                                             | Activity_login                                                         | Activity_login horizontal                       | Activity_singup                                                                                                              |
+|----------------------------------------------------------------------------|-------------------------------------------------------------|------------------------------------------------------------------------|-------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| [<img src="img/iconoApp.png" width="250" height="300"/>](img/iconoApp.png) | ![activity_splash](img/Splash.png)                          | ![activity_login](img/Login.png)                                       | ![land\activity_login](img/LoginHorizontal.png) | ![activity_singup](img/Singup.png)                                                                                           |
+| Logo personalizado con icono                                               | Primera pantalla de la App, splash con una animación Lottie | Pantalla de login con botones para ir a las pantallas de Main o SingUp | Misma pantalla de login pero en horizontal      | Pantalla SingUp con un appBar para voler al LogIn, campos rellenables y botones para ir a la pantalla Main o volver al LogIn |
 
-| Activity_profile | MainActivity | Swipe Refresh |
-|----------|-----------|-----------|
-|![activity_profile](img/profileActivity.png)|![MainActivity](img/mainMenu.png)|![](img/SwipeRefresh.png)|
-| Dato A   | Dato B    | Dato C    |
+| Activity_profile                                     | MainActivity                                                       | Swipe Refresh             |
+|------------------------------------------------------|--------------------------------------------------------------------|---------------------------|
+| ![activity_profile](img/profileActivity.png)         | ![MainActivity](img/mainMenu.png)                                  | ![](img/SwipeRefresh.png) |
+| Pantalla de profile con una foto cargada de Internet | Pantalla Main, con SwipeRefresh, un appBar con botones funcionales | SwipeRefresh              |
 
 
   - Botones del app bar:
