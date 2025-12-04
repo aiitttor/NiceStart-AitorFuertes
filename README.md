@@ -8,43 +8,18 @@
 |[<img src="img/iconoApp.png" width="250" height="300"/>](img/iconoApp.png)|![activity_splash](img/Splash.png)|![activity_login](img/Login.png)|![land\activity_login](img/LoginHorizontal.png)|![activity_singup](img/Singup.png)|
 | Dato A   | Dato B    | Dato C    |   |   |
 
-- Icono de la App
+| Activity_profile | MainActivity | Swipe Refresh |
+|----------|-----------|-----------|
+|![activity_profile](img/profileActivity.png)|![MainActivity](img/mainMenu.png)|![](img/SwipeRefresh.png)|
+| Dato A   | Dato B    | Dato C    |
 
-[<img src="img/iconoApp.png" width="250" height="300"/>](img/iconoApp.png)
-
-- Activity_splash
-
-![activity_splash](img/Splash.png)
-
-- Activity_login
-
-![activity_login](img/Login.png)
-
-- Activity_login horizontal
-
-![land\activity_login](img/LoginHorizontal.png)
-
-- Activity_singup
-
-![activity_singup](img/Singup.png)
-
-- Activity_profile
-
-![activity_profile](img/profileActivity.png)
-
-- MainActivity
-
-![MainActivity](img/mainMenu.png)
 
   - Botones del app bar:
     - ![](img/BotonMenu.png)
     - ![](img/botonesAppBar2.png)
       - Exit sale de la App, Do Nothing no hace nada y Splash abre la pantalla del Splash
         ![](img/AlertDialog1.png)
-      
-- Swipe Refresh
 
-![](img/SwipeRefresh.png)
 
 - Copy item & Download item
 
