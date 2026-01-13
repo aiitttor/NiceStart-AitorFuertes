@@ -1,13 +1,13 @@
 <resources>
-    <string name="app_name">Nicestart</string>
+    <string name="app_name" translatable="false">Nicestart</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="email">Email</string>
     <string name="login">Login</string>
     <string name="singup">Singup</string>
-    <string name="cancel">Canelar</string>
-    <string name="nombre">Juan García</string>
-    <string name="descripcion">Ingeniero en Informática con más de 6 años de experiencia en desarrollo de software y gestión de proyectos tecnológicos. Apasionado por la
+    <string name="cancel">Canel</string>
+    <string name="nombre" translatable="false">Juan García</string>
+    <string name="descripcion" translatable="false">Ingeniero en Informática con más de 6 años de experiencia en desarrollo de software y gestión de proyectos tecnológicos. Apasionado por la
         innovación, la resolución de problemas y el aprendizaje continuo. </string>
 
 </resources>
