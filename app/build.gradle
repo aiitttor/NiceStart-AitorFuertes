@@ -38,10 +38,21 @@ dependencies {
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
 
+    //SWIPE REFRESH
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
 
+    // cargar imagenes
+    /* EJEMPLO DE USO:
+        Glide.with(this)
+     .load("https://example.com/imagen.jpg")
+     .into(imageView);
+
+     */
     implementation 'com.github.bumptech.glide:glide:4.16.0'
+
+
     annotationProcessor 'com.github.bumptech.glide:compiler:4.16.0'
 
+    // ANIMACIONES LOTTIE
     implementation "com.airbnb.android:lottie:+"
 }

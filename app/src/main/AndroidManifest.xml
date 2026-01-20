@@ -15,6 +15,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Nicestart.NoActionBar">
         <activity
+            android:name=".MainBAB"
+            android:exported="true" />
+        <activity
             android:name=".Profile"
             android:exported="true"
             android:theme="@style/Theme.Nicestart.ActionBarBlack" />

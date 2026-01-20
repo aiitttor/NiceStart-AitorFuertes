@@ -8,6 +8,16 @@
     android:background="@color/white"
     tools:context=".Profile">
 
+<!--    Abre tu layout en Android Studio (por ejemplo activity_main.xml)-->
+
+<!--    Selecciona un TextView en el Editor de Diseño (Design view)-->
+
+<!--    En el panel derecho (Attributes / Atributos), busca la sección Text → Font-->
+
+<!--    Haz clic en el botón “Font Family” (parece un icono de “A”) → aparece un menú-->
+
+<!--    Dale a “Add font…” o “Download fonts”-->
+
     <ImageView
         android:id="@+id/profileLogo"
         android:layout_width="176dp"
