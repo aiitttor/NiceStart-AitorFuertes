@@ -19,8 +19,10 @@
 | ![](img/settings.png)                                               | ![](img/alert.png)                                                            | ![](img/AlertDialog.png)                                                               | ![](img/refreshMain.png)        ![](img/refresh2.png)                              | ![](img/CopyDownload.png)  ![](img/ToastCopyDownload.png)                                                          |
 | Botón de settings en el AppBar que por ahora no tiene funcionalidad | Boton en el AppBar con un logo de llave inglesa, el cual abre un alert dialog | Alert dialog con 3 opciones, salir de la App, abrir la pantalla Splash o no hacer nada | Utilidad de Swipe Refresh que al utilizarlo cambia la imagen del fondo de pantalla | Al mantener la pantalla, aparecen las opciones de Copy o Download, al hacer click aparece el toast correspondiente |
 
-Proyecto internacionalizado
+- Internacionalización
+La applicación está disponible en inglñes y en español, pudiendo configurarlo desde los ajustes del dispositivo.
 
-Falta de documentar lo de tema oscuro
+- Modo claro/oscuro
+La aplicación esta disponible en tema claro y oscuro con adaptación automática con la configuración del dispositivo.
 
 This repository is licensed under [Creativecommons Org Licenses By Sa 4](https://creativecommons.org/licenses/by-sa/4.0/)
