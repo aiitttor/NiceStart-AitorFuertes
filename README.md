@@ -63,15 +63,12 @@ Las acciones del menú muestran mensajes informativos al usuario, proporcionando
 ### FloatingActionButton (FAB)
 
 El **FloatingActionButton (FAB)** se encuentra anclado al centro del BottomAppBar y representa la acción principal de la pantalla.  
-Su posición y diseño siguen las recomendaciones de Material Design para acciones destacadas.
 
 ---
 
 ### BottomSheetDialog
 
-Al pulsar el botón de navegación del BottomAppBar se muestra un **BottomSheetDialog**, un panel modal que se desliza desde la parte inferior de la pantalla.
-
-Este panel presenta distintas opciones al usuario y permite ampliar funcionalidades sin cambiar de pantalla, manteniendo una navegación fluida e intuitiva.
+Se muestra un **BottomSheetDialog**, este panel presenta distintas opciones al usuario las cuales muestran mensajes informativos al usuario.
 
 ---
 
